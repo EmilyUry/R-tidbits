@@ -3,7 +3,7 @@
 #' title: "BAS vignette"
 #' author: "Merlise A Clyde"
 #' date: "2020-02-11"
-#' output: html_document
+#' keep_md: true
 #' ---
 
 ### Bas vignette
