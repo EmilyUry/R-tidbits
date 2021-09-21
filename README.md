@@ -8,4 +8,4 @@ code for running basic stuff in R
 of basic Bayesian Adaptive Sampling for model averaging and variable selection. View
 the **BAS-tutorial.md** file to see the compiled vignette with figures. 
 3. **How to extract .zip files** Instructions for unzipping a folder full 
-4. of .zip files. 
+of .zip files. 
