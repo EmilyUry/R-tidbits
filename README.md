@@ -7,3 +7,5 @@ code for running basic stuff in R
 2. **BAS-tutorial.R** BAS package vignette created by Merlise A Clyde. Walk through 
 of basic Bayesian Adaptive Sampling for model averaging and variable selection. View
 the **BAS-tutorial.md** file to see the compiled vignette with figures. 
+3. **How to extract .zip files** Instructions for unzipping a folder full 
+4. of .zip files. 
