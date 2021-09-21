@@ -1,0 +1,11 @@
+## extract
+
+## script for running general extraction
+
+
+library(plyr)
+
+dir <- "C:/Users/Emily Ury/OneDrive - University of Waterloo/Wetlands_local/Data_files/SSURGO_soil_maps/Michigan_14"
+zip_file <- list.files(path = dir, pattern = "*.zip", full.names = TRUE)
+
+ldply(.data = zip_file, .fun = unzip, exdir = dir)
