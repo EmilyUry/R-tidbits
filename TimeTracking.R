@@ -1,4 +1,10 @@
 ## TimeTracking.R
+
+### this script was ripped straight from Sam Zipper
+### https://github.com/samzipper/SelfAnalysis/blob/master/WorkTimeAnalysis_CollectData.R
+### https://www.samzipper.com/post/2022-01-02-work-tracking-update/
+
+
 # Tutorial on googlesheets package here: https://datascienceplus.com/how-to-use-googlesheets-to-connect-r-to-google-sheets/
 
 library(tidyverse)
@@ -7,8 +13,8 @@ library(googlesheets4)
 # deauthorize - no need to write or read private sheets
 gs4_deauth()
 
-## first: do 2021
-sheet_url <- "https://docs.google.com/spreadsheets/d/1cE-u8IsB96H01Y-3G3_JeL8AugWl2oJEPOJDEMtraj0/edit#gid=2092721761"
+## first: do 2022
+sheet_url <- "https://docs.google.com/spreadsheets/d/1M1rWK6CDB0FobOBGA-yjuiIrCSyj1k6VZVwtSFnNhv4/edit?usp=sharing"
 sheet_info <- gs4_get(sheet_url)
 tabs_all <- 
   sheet_info$sheets %>% 
@@ -48,4 +54,5 @@ for (w in 1:length(tabs_all$name)){
 }
 
 # save 2020 output
-write_csv(all_weeks, "WorkTimeAnalysis_Hours_2021.csv")
+setwd("C:/Users/Emily Ury/OneDrive - University of Waterloo/Wetlands_local/Data_files")
+write_csv(all_weeks, "WorkTimeAnalysis_Hours_2022.csv")
