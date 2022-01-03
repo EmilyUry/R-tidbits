@@ -9,3 +9,6 @@ of basic Bayesian Adaptive Sampling for model averaging and variable selection. 
 the **BAS-tutorial.md** file to see the compiled vignette with figures. 
 3. **How to extract .zip files** Instructions for unzipping a folder full 
 of .zip files. 
+4. **Time Tracking** weekly work tracker based off analysis by Sam Zipper
+    https://www.samzipper.com/post/2022-01-02-work-tracking-update/
+    Includes scraping tabs from google sheets into CSV and data analysis. 
